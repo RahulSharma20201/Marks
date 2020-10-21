@@ -61,4 +61,6 @@ while(bool):
 
     }
     choice = int(input("enter the choice"))
-    dic.get(choice,boundary)()
+    def callfun():
+             dic.get(choice,boundary)()
+    callfun()        
